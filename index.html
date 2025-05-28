@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kashmir University Notes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #333;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: #6a11cb;
+      color: white;
+      flex-wrap: wrap;
+    }
+
+    .nav .logo {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .nav .menu {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav .menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .main {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      color: #fff;
+    }
+
+    .main h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .main p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      padding: 60px 20px;
+      gap: 40px;
+      flex-wrap: wrap;
+      background: #fff;
+    }
+
+    .feature {
+      text-align: center;
+      max-width: 250px;
+    }
+
+    .feature h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    .feature p {
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .nav {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .nav .menu {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+      }
+
+      .main h1 {
+        font-size: 2rem;
+      }
+
+      .main p {
+        font-size: 1rem;
+        padding: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+    <div class="logo">Eclipse</div>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="semesters.html">Semesters</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="main">
+    <h1>Take the first step to learn with us</h1>
+    <p>This website is made especially for undergraduate students of Kashmir University (Semesters 1 to 6). We know it's hard to find the right notes online, especially when exams are close — so we made it easy for you. Just visit our website and download the required material for free.</p>
+  </div>
+
+  <section class="features">
+    <div class="feature">
+      <h3>📘 New Classes</h3>
+      <p>Find notes updated semester-wise — accurate and fast.</p>
+    </div>
+    <div class="feature">
+      <h3>🏆 Top Courses</h3>
+      <p>Browse by the most popular and requested subjects.</p>
+    </div>
+    <div class="feature">
+      <h3>📥 Free Downloads</h3>
+      <p>Instantly access all materials as PDF — no signup needed.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Kashmir University Notes. All rights reserved.
+  </footer>
+
+</body>
+</html>

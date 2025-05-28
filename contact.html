@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Kashmir University Notes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #333;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 30px;
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      color: #fff;
+      flex-wrap: wrap;
+    }
+
+    .nav .logo {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .nav .menu {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .nav .menu a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 15px;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+
+    a.email-link, a.youtube-link {
+      color: #2575fc;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a.email-link:hover, a.youtube-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav .menu {
+        margin-top: 10px;
+        flex-direction: column;
+      }
+
+      .nav .menu a {
+        margin: 5px 0;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <div class="logo">Eclipse</div>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="semesters.html">Semesters</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <section>
+    <h1>Contact Us</h1>
+    <p>If you want to contribute notes, report an issue, or ask a question, feel free to reach out via email or YouTube:</p>
+    <p>Email: <a class="email-link" href="mailto:sahilhabib4455@gmail.com">sahilhabib4455@gmail.com</a></p>
+    <p>YouTube: <a class="youtube-link" href="https://www.youtube.com/@Cddpp" target="_blank" rel="noopener noreferrer">@Cddpp</a></p>
+  </section>
+</body>
+</html>
